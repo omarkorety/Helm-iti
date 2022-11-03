@@ -1,0 +1,10 @@
+metadata:
+  labels:
+    app: bakehouse
+    name: bakehouse
+
+
+replicacount: 1
+spec:
+  image: omarkorety/bakehouse:15
+  pullpolicy: Always
